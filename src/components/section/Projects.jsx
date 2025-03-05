@@ -22,7 +22,7 @@ const Projects = () => {
                         durante todo el ciclo de vida del cultivo, ademas de poder detectar afecciones
                         mediante inteligencia artificial.
                     </p>
-                    <div>
+                    <div className="w-full flex flex-wrap gap-2 justify-center">
                         {["React", "FastApi", "Render", "Pyhton", "GitHub", "PostgreSQL"].map((tech, key) => (
                             <span
                             key={key}
@@ -45,7 +45,7 @@ const Projects = () => {
                         
                         Tienda de venta de comidas rápidas, priorizando la experiendia de usuario.
                     </p>
-                    <div>
+                    <div className="w-full flex flex-wrap gap-2 justify-center">
                         {["React", "MongoDB", "Node.Js", "GitHub", "Express"].map((tech, key) => (
                             <span
                             key={key}
@@ -69,7 +69,7 @@ const Projects = () => {
                         Sistema mulitplataforma que permite gestionar eventos, ademas, mediante inteligencia artificial predice y recomienda 
                         las fechas ideales para agendar evento.... En progreso.. 🚧🛠️
                     </p>
-                    <div>
+                    <div className="w-full flex flex-wrap gap-2 justify-center">
                         {["React", "Node.JS", "Railway", "PostgreSQL", "GitHub"].map((tech, key) => (
                             <span
                             key={key}

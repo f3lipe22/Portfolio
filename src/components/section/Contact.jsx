@@ -30,9 +30,11 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="min-h-screen flex items-center justify-center py-20">
+    <section 
+    id="contact" 
+    className="min-h-screen flex items-center justify-center py-20">
       <RevealOnScroll>
-        <div className="px-4 w-150">
+        <div className="px-4 w-full min-w-[300px] md:w-[500px] sm:w-2/3 p-6">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             Ponte en contacto
           </h2>
@@ -84,7 +86,7 @@ const Contact = () => {
             </button>
           </form>
 
-          {status === "success" && <p className="text-green-500 text-center mt-4">¡Mensaje enviado con éxito!</p>}
+          {status === "success" && <p className="text-blue-500  text-center mt-4">¡Mensaje enviado con éxito!</p>}
           {status === "error" && <p className="text-red-500 text-center mt-4">Oops, algo salió mal. Intenta de nuevo.</p>}
         </div>
       </RevealOnScroll>
