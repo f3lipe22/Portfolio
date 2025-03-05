@@ -82,7 +82,7 @@ const Hero = () => {
                     className="flex flex-col md:flex-row items-center justify-center gap-6 my-4 md:mb-0 w-full"
                 >
                     <a 
-                    href="Andres_Felipe_Diaz_CV.pdf"
+                    href="https://drive.google.com/uc?export=download&id=141mLFAZKpvXVkYu_I-gYlxdnDl8aEj_J"
                     download="Andres_Felipe_Diaz_CV.pdf"
                     >
                     <motion.button 
