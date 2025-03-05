@@ -82,8 +82,8 @@ const Hero = () => {
                     className="flex flex-col md:flex-row items-center justify-center gap-6 my-4 md:mb-0 w-full"
                 >
                     <a 
-                    href=""
-                    download="CV_AndresFelipeDiaz.pdf"
+                    href="Andres_Felipe_Diaz_CV.pdf"
+                    download="Andres_Felipe_Diaz_CV.pdf"
                     >
                     <motion.button 
                         whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
@@ -95,11 +95,11 @@ const Hero = () => {
                     </a>
 
                     <div className="flex justify-center items-center gap-6 text-4xl md:text-6xl text-blue-500 z-20">
-                        <motion.a whileHover={{ scale: 1.2 }} href="https://github.com/f3lipe22">
+                        <motion.a whileHover={{ scale: 1.2 }} href={import.meta.env.VITE_GITHUB_URL}>
                             <AiOutlineGithub />
                         </motion.a>
 
-                        <motion.a whileHover={{ scale: 1.2 }} href="https://www.linkedin.com/in/andresfelipediaz22/">
+                        <motion.a whileHover={{ scale: 1.2 }} href={import.meta.env.VITE_LINKEDIN_URL}>
                             <AiOutlineLinkedin />
                         </motion.a>
 
