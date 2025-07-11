@@ -36,7 +36,7 @@ const Projects = () => {
                     </div>
 
                     <div className="flex justify-between items-center">
-                        <a href="https://arroz-ia.vercel.app/" className="text-blue-400 hover:text-blue-300 transition-colors my-4"> Vista del Proyecto ➡️ </a>
+                        <a href="https://arroz-ia.vercel.app" className="text-blue-400 hover:text-blue-300 transition-colors my-4"> Vista del Proyecto ➡️ </a>
                     </div>
                 </div>
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadowshadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
