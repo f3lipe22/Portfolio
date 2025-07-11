@@ -1,12 +1,30 @@
-# React + Vite
+🌟 Mi Portfolio Personal
+Un portfolio web moderno y responsivo desarrollado con React y Vite, donde muestro mis proyectos y habilidades como desarrollador.
+🚀 Demo
+🌐 Ver Portfolio en Vivo
+📋 Características
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Diseño Moderno: Interfaz limpia y atractiva
+📱 Responsive: Adaptado para todos los dispositivos
+⚡ Rápido: Optimizado con Vite para carga instantánea
+🎨 Animaciones: Transiciones suaves y micro-interacciones
+🌙 Modo Oscuro: Tema claro/oscuro (si aplica)
+📧 Formulario de Contacto: Integración con servicios de email
+🔍 SEO Optimizado: Meta tags y estructura semántica
 
-Currently, two official plugins are available:
+🛠️ Tecnologías Utilizadas
+Frontend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ React 18
+ Vite - Build tool
+ JavaScript ES6+
+ CSS3 / Styled Components
 
-## Expanding the ESLint configuration
+Deployment
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ Netlify - Hosting y despliegue continuo
+
+Herramientas
+
+ Git - Control de versiones
+ VS Code - Edito
