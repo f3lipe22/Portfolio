@@ -39,11 +39,7 @@ const Hero = () => {
                 <TypeAnimation
                     sequence={[
                         "Desarrollador Fullstack",
-                        1000,
-                        "Analista de datos",
-                        1000,
-                        "DevOps",
-                        1000
+                        3000
                     ]}
                     speed={50}
                     repeat={Infinity}
@@ -82,8 +78,8 @@ const Hero = () => {
                     className="flex flex-col md:flex-row items-center justify-center gap-6 my-4 md:mb-0 w-full"
                 >
                     <a 
-                    href="https://drive.google.com/uc?export=download&id=141mLFAZKpvXVkYu_I-gYlxdnDl8aEj_J"
-                    download="Andres_Felipe_Diaz_CV.pdf"
+                    href="https://drive.google.com/uc?export=download&id=1B9NmUypInOHpkP832wv9_diAiyekMylG"
+                    download="AndresFelipeDiazGonzalezResume(1).pdf"
                     >
                     <motion.button 
                         whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
